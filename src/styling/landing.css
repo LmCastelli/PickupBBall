@@ -1,0 +1,48 @@
+.LandingShell {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 98vh;
+    background-color: #98002E;
+}
+
+.LogoImg {
+    width: 60%;
+    height: 55%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.LogoShell {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AppleSignUpDiv {
+    border-radius: 40px;
+    background-color: #F9A01B;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10%;
+}
+
+.EmailSignUpDiv {
+    border-radius: 40px;
+    background-color: #000000;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -3%;
+}
+
+.LandingText {
+    color: white;
+}

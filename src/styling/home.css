@@ -1,0 +1,114 @@
+.HomeShell {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #98002E;
+}
+
+.FriendsOnlineDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 10%;
+    width: 100%;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+.NumberOfFriends {
+    margin:0;
+    margin-right: 1%;
+    margin-bottom: -2%;
+}
+
+.FriendsOnlineContainer {
+    display: flex;
+    justify-content: flex-end;
+    width:15%;
+    margin-right: 4.5%;
+}
+
+.EventShell {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EventDiv {
+    width: 100%;
+    background-color: orange;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin-bottom: 2%;
+}
+
+.UserName {
+    margin:0;
+    align-self:flex-start;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.EventInfo {
+    margin:8px;
+}
+
+.AddEventDiv {
+    width: 85%;
+    background-color: orange;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.ModalBackground {
+    width: 85%;
+    background-color: white;
+    border: solid 2px black;
+}
+
+.ModalShell {
+    display: flex;
+    flex-direction: column;
+}
+
+.XButton {
+    width: 8%;
+    margin-left: 91%;
+    margin-top: 1%;
+}
+
+.FormShell {
+    height: 35vh;
+}
+.EventForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.FormLabel {
+    width: 90%;
+    margin-left: 5%;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    margin-left: 5%;
+}
+
+.FormButton {
+    width: 30%;
+    align-self: center;
+}

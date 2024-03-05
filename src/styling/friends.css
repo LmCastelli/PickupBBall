@@ -1,0 +1,102 @@
+
+.FriendListShell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: #98002E;
+}
+
+.UserDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    border: 3px solid black;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.SearchContainer {
+    width: 15%;
+}
+
+.SearchImg {
+    width: 100%;
+}
+
+.OnlineFriendsContainer {
+    width:15%;
+}
+
+.OnlineFriendsImg {
+    width: 100%;
+}
+
+.Friends {
+    margin-left: -9%;
+    margin-top: -8%;
+}
+
+.OnlineShell {
+    width: 40%;
+    text-align: center;
+    background-color: #D9D9D9;
+    border: 2px solid black;
+    padding: 0;
+    margin: 2%;
+}
+
+.OnlineStatus {
+    margin:0;
+}
+
+.OnlineFriendDiv {
+    background-color: #D9D9D9;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.4%;
+}
+
+.UserNameText {
+    width: 35%;
+}
+
+.ProfileContainer {
+    width: 14%;
+}
+
+.ProfileImg {
+    width: 100%;
+}
+
+.AddContainer {
+    width: 10%;
+}
+
+.AddImg {
+    width: 100%;
+}
+
+.MessageContainer {
+    width: 14%;
+}
+
+.MessageImg {
+    width: 100%;
+}
+
+.OfflineFriendDiv {
+    background-color: #D9D9D9;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
